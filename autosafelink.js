@@ -1,6 +1,6 @@
 // AUTO SAFELINK FOR WWW.IDBLANTER.COM SAFELINK.BLANTER.NET
 var blog_url="http://4safelink.com"; // Homepage Blog Safelink
-var article1="/p/download.html"; // Article 1
+var article1="/p/link.html"; // Article 1
 var article2="/p/url.html"; // Article 2
 var article3="/p/go.html"; // Article 3
 var protected_links = "4savelink.com,facebook.com,twitter.com,instagram.com"; // Protected Links

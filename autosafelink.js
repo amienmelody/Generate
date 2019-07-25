@@ -1,5 +1,5 @@
 // AUTO SAFELINK FOR WWW.IDBLANTER.COM SAFELINK.BLANTER.NET
-var blog_url="http://www.yourliz.com"; // Homepage Blog Safelink
+var blog_url="http://yourliz.com"; // Homepage Blog Safelink
 var article1="/p/go.html"; // Article 1
 var article2="/p/go.html"; // Article 2
 var article3="/p/go.html"; // Article 3

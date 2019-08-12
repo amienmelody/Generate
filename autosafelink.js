@@ -1,9 +1,14 @@
 // AUTO SAFELINK FOR WWW.IDBLANTER.COM SAFELINK.BLANTER.NET
-var blog_url="http://yourliz.com"; // Homepage Blog Safelink
-var article1="/p/go.html"; // Article 1
-var article2="/p/go.html"; // Article 2
-var article3="/p/go.html"; // Article 3
-var protected_links = "yourliz.com,facebook.com,twitter.com,instagram.com"; // Protected Links
+var blog_url="http://www.yourliz.com"; // Homepage Blog Safelink
+var article1="/2018/09/how-to-become-recording-artist.html"; // Article 1
+var article2="/2018/08/how-to-make-album-without-recording.html"; // Article 2
+var article3="/2018/09/how-to-write-and-sell-your-songs.html"; // Article 3
+var article4="/2018/09/how-to-contact-record-labels.html"; // Article 4
+var article5="/2018/09/how-to-become-musician.html"; // Article 5
+var article6="/2018/09/how-to-work-at-recording-studio.html"; // Article 6
+var article7="/2018/09/how-to-sing-with-confidence.html"; // Article 7
+var article8="/2018/09/how-to-become-music-producer.html"; // Article 8
+var protected_links = "www.yourliz.com,facebook.com,twitter.com,instagram.com"; // Protected Links
 function auto_safeconvert(){var a=window.location.hostname,c=0;""==protected_links||protected_links.match(a)?""==protected_links&&(protected_links=a):protected_links+=", "+a;var b;a=document.getElementsByTagName("a");a_to_va=a.length;var d=(b=a_to_fa()).length;for(var e,f,h="",g=0;g<a_to_va;g++){e=!1;for(f=0;0==e&&f<d;)!(h=a[g].href).match(b[f])&&h&&h.match("http")||(e=!0),f++;if(0==e){e=Base64.encode(h+",");f=Math.floor(3*Math.random()+1);var k=null;"1"==f&&(k=""+article1);"2"==f&&
 (k=""+article2);"3"==f&&(k=""+article3);a[g].href=""+blog_url+k+"?url="+e;a[g].rel="nofollow";c++}}a=document.getElementById("anonyminized");b=document.getElementById("found_links");a&&(a.innerHTML+=c);b&&(b.innerHTML+=a_to_va)}function a_to_fa(){return protected_links=protected_links.replace(" ",""),protected_links.split(",")}
 var Base64={_keyStr:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=",encode:function(a){var c,b,d="",e=0;for(a=Base64._utf8_encode(a);e<a.length;){var f=(c=a.charCodeAt(e++))>>2;var h=(3&c)<<4|(c=a.charCodeAt(e++))>>4;var g=(15&c)<<2|(b=a.charCodeAt(e++))>>6;var k=63&b;isNaN(c)?g=k=64:isNaN(b)&&(k=64);d=d+this._keyStr.charAt(f)+this._keyStr.charAt(h)+this._keyStr.charAt(g)+this._keyStr.charAt(k)}return d},decode:function(a){var c,b,d,e="",f=0;for(a=a.replace(/[^A-Za-z0-9\+\/\=]/g,
